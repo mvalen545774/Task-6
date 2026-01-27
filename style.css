@@ -1,0 +1,36 @@
+#home{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to right, grey, #10f22a6f);
+    color: white;
+    margin-bottom: 70px;
+    padding: 60px 15px;
+}
+
+#skills{
+    margin-top: 70px;
+    background-color: #f8f9f8;
+}
+
+.section{
+    padding: 60px 0;
+}
+
+.card{
+    height: 100%;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#skills .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
