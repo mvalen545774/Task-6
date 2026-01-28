@@ -32,8 +32,8 @@ body{
 .input{
     width: 100px;
     padding: 8px;
-    margin-top: 5px;
-    font-size: 14px;
+    margin-top: 1px;
+    font-size: 10px;
 }
 
 .button{
@@ -49,12 +49,13 @@ body{
 
 .text{
     color: #4caf50;
-    text-decoration: dashed;
-    
 }
 
-.link{
+.link input {
     color: #4caf50;
-    text-decoration: none;
-
+    text-decoration: underline;
 }
+
+
+
+
